@@ -67,7 +67,7 @@
             // AddUserRibbon
             // 
             this.Name = "AddUserRibbon";
-            this.RibbonType = "Microsoft.Outlook.Mail.Read";
+            this.RibbonType = "Microsoft.Outlook.Explorer";
             this.Tabs.Add(this.addUserTab);
             this.Load += new Microsoft.Office.Tools.Ribbon.RibbonUIEventHandler(this.AddUserRibbon_Load);
             this.addUserTab.ResumeLayout(false);

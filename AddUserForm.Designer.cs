@@ -30,23 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddUserForm));
             this.contactGroup = new System.Windows.Forms.GroupBox();
-            this.firstNameLabel = new System.Windows.Forms.Label();
-            this.firstName = new System.Windows.Forms.TextBox();
+            this.company = new System.Windows.Forms.TextBox();
+            this.companyLabel = new System.Windows.Forms.Label();
             this.lastName = new System.Windows.Forms.TextBox();
             this.lastNameLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.companyLabel = new System.Windows.Forms.Label();
+            this.firstName = new System.Windows.Forms.TextBox();
+            this.firstNameLabel = new System.Windows.Forms.Label();
             this.usernameGroup = new System.Windows.Forms.GroupBox();
             this.password = new System.Windows.Forms.TextBox();
             this.passwordLabel = new System.Windows.Forms.Label();
             this.username = new System.Windows.Forms.TextBox();
             this.usernameLabel = new System.Windows.Forms.Label();
             this.emailGroup = new System.Windows.Forms.GroupBox();
+            this.domainLabel = new System.Windows.Forms.Label();
             this.repEmail = new System.Windows.Forms.TextBox();
             this.repEmailLabel = new System.Windows.Forms.Label();
             this.email = new System.Windows.Forms.TextBox();
             this.emailLabel = new System.Windows.Forms.Label();
-            this.domainLabel = new System.Windows.Forms.Label();
+            this.sendButton = new System.Windows.Forms.Button();
             this.contactGroup.SuspendLayout();
             this.usernameGroup.SuspendLayout();
             this.emailGroup.SuspendLayout();
@@ -55,7 +56,7 @@
             // contactGroup
             // 
             this.contactGroup.BackColor = System.Drawing.SystemColors.Control;
-            this.contactGroup.Controls.Add(this.textBox1);
+            this.contactGroup.Controls.Add(this.company);
             this.contactGroup.Controls.Add(this.companyLabel);
             this.contactGroup.Controls.Add(this.lastName);
             this.contactGroup.Controls.Add(this.lastNameLabel);
@@ -69,27 +70,27 @@
             this.contactGroup.TabStop = false;
             this.contactGroup.Text = "Contact";
             // 
-            // firstNameLabel
+            // company
             // 
-            this.firstNameLabel.AutoSize = true;
-            this.firstNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.firstNameLabel.Location = new System.Drawing.Point(8, 29);
-            this.firstNameLabel.Name = "firstNameLabel";
-            this.firstNameLabel.Size = new System.Drawing.Size(39, 16);
-            this.firstNameLabel.TabIndex = 0;
-            this.firstNameLabel.Text = "First :";
+            this.company.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.company.Location = new System.Drawing.Point(80, 84);
+            this.company.Name = "company";
+            this.company.Size = new System.Drawing.Size(199, 23);
+            this.company.TabIndex = 5;
             // 
-            // firstName
+            // companyLabel
             // 
-            this.firstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.firstName.Location = new System.Drawing.Point(47, 26);
-            this.firstName.Name = "firstName";
-            this.firstName.Size = new System.Drawing.Size(232, 23);
-            this.firstName.TabIndex = 1;
+            this.companyLabel.AutoSize = true;
+            this.companyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.companyLabel.Location = new System.Drawing.Point(8, 84);
+            this.companyLabel.Name = "companyLabel";
+            this.companyLabel.Size = new System.Drawing.Size(72, 16);
+            this.companyLabel.TabIndex = 4;
+            this.companyLabel.Text = "Company :";
             // 
             // lastName
             // 
-            this.lastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lastName.Location = new System.Drawing.Point(46, 55);
             this.lastName.Name = "lastName";
             this.lastName.Size = new System.Drawing.Size(233, 23);
@@ -105,23 +106,23 @@
             this.lastNameLabel.TabIndex = 2;
             this.lastNameLabel.Text = "Last :";
             // 
-            // textBox1
+            // firstName
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(80, 84);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(199, 23);
-            this.textBox1.TabIndex = 5;
+            this.firstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.firstName.Location = new System.Drawing.Point(47, 26);
+            this.firstName.Name = "firstName";
+            this.firstName.Size = new System.Drawing.Size(232, 23);
+            this.firstName.TabIndex = 1;
             // 
-            // companyLabel
+            // firstNameLabel
             // 
-            this.companyLabel.AutoSize = true;
-            this.companyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.companyLabel.Location = new System.Drawing.Point(8, 84);
-            this.companyLabel.Name = "companyLabel";
-            this.companyLabel.Size = new System.Drawing.Size(72, 16);
-            this.companyLabel.TabIndex = 4;
-            this.companyLabel.Text = "Company :";
+            this.firstNameLabel.AutoSize = true;
+            this.firstNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.firstNameLabel.Location = new System.Drawing.Point(8, 29);
+            this.firstNameLabel.Name = "firstNameLabel";
+            this.firstNameLabel.Size = new System.Drawing.Size(39, 16);
+            this.firstNameLabel.TabIndex = 0;
+            this.firstNameLabel.Text = "First :";
             // 
             // usernameGroup
             // 
@@ -140,7 +141,7 @@
             // 
             // password
             // 
-            this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password.Location = new System.Drawing.Point(85, 55);
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(194, 23);
@@ -158,7 +159,7 @@
             // 
             // username
             // 
-            this.username.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.username.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username.Location = new System.Drawing.Point(85, 26);
             this.username.Name = "username";
             this.username.Size = new System.Drawing.Size(194, 23);
@@ -190,9 +191,19 @@
             this.emailGroup.TabStop = false;
             this.emailGroup.Text = "E-mail";
             // 
+            // domainLabel
+            // 
+            this.domainLabel.AutoSize = true;
+            this.domainLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.domainLabel.Location = new System.Drawing.Point(171, 58);
+            this.domainLabel.Name = "domainLabel";
+            this.domainLabel.Size = new System.Drawing.Size(108, 17);
+            this.domainLabel.TabIndex = 4;
+            this.domainLabel.Text = "@metsales.com";
+            // 
             // repEmail
             // 
-            this.repEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.repEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.repEmail.Location = new System.Drawing.Point(85, 55);
             this.repEmail.Name = "repEmail";
             this.repEmail.Size = new System.Drawing.Size(83, 23);
@@ -210,7 +221,7 @@
             // 
             // email
             // 
-            this.email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.email.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.email.Location = new System.Drawing.Point(85, 26);
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(194, 23);
@@ -226,22 +237,23 @@
             this.emailLabel.TabIndex = 0;
             this.emailLabel.Text = "E-mail :";
             // 
-            // domainLabel
+            // sendButton
             // 
-            this.domainLabel.AutoSize = true;
-            this.domainLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.domainLabel.Location = new System.Drawing.Point(171, 58);
-            this.domainLabel.Name = "domainLabel";
-            this.domainLabel.Size = new System.Drawing.Size(108, 17);
-            this.domainLabel.TabIndex = 4;
-            this.domainLabel.Text = "@metsales.com";
+            this.sendButton.Location = new System.Drawing.Point(69, 326);
+            this.sendButton.Name = "sendButton";
+            this.sendButton.Size = new System.Drawing.Size(172, 54);
+            this.sendButton.TabIndex = 8;
+            this.sendButton.Text = "Send User Login Information\r\n&&\r\nAdd to Constant Contact";
+            this.sendButton.UseVisualStyleBackColor = true;
+            this.sendButton.Click += new System.EventHandler(this.sendButton_Click);
             // 
             // AddUserForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(309, 348);
+            this.ClientSize = new System.Drawing.Size(309, 392);
+            this.Controls.Add(this.sendButton);
             this.Controls.Add(this.emailGroup);
             this.Controls.Add(this.usernameGroup);
             this.Controls.Add(this.contactGroup);
@@ -262,7 +274,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox contactGroup;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox company;
         private System.Windows.Forms.Label companyLabel;
         private System.Windows.Forms.TextBox lastName;
         private System.Windows.Forms.Label lastNameLabel;
@@ -279,5 +291,6 @@
         private System.Windows.Forms.Label repEmailLabel;
         private System.Windows.Forms.TextBox email;
         private System.Windows.Forms.Label emailLabel;
+        private System.Windows.Forms.Button sendButton;
     }
 }
