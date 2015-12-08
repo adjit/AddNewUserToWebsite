@@ -28,6 +28,12 @@ namespace SendWebUsername
             Outlook.Items oItem = myContacts.Items;
             String filter = "[FirstName] = '" + firstName.Text + "' And [LastName] = '" + lastName.Text + "'";
             oItem = oItem.Find(filter);
+
+            if(oItem != null)
+            {
+                DialogResult contactResult = System.Windows.Forms.MessageBox.Show("Contact already exists. Would you like to overwrite?", "Contact Exists", MessageBoxButtons.YesNo);
+            }
+
             try
             {
                 oContact.FirstName = firstName.Text;
