@@ -1,7 +1,3 @@
-D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\SendWebUsername.dll
-D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\SendWebUsername.pdb
-D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\SendWebUsername.dll.manifest
-D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\SendWebUsername.vsto
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\Microsoft.Office.Tools.Common.dll
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\Microsoft.Office.Tools.dll
@@ -15,10 +11,13 @@ D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUse
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\Microsoft.Office.Tools.Outlook.xml
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\Microsoft.Office.Tools.Outlook.v4.0.Utilities.xml
-D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\SendWebUsername.csprojResolveAssemblyReference.cache
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\SendWebUsername.AddUserForm.resources
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\SendWebUsername.AddUserRibbon.resources
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\SendWebUsername.Properties.Resources.resources
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\SendWebUsername.csproj.GenerateResource.Cache
-D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\SendWebUsername.dll
-D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\SendWebUsername.pdb
+D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\Send Web Username.dll
+D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\Send Web Username.pdb
+D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\Send Web Username.dll.manifest
+D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\Send Web Username.vsto
+D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\Send Web Username.dll
+D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\Send Web Username.pdb

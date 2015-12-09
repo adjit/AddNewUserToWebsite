@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Outlook = Microsoft.Office.Interop.Outlook;
 
@@ -55,6 +48,10 @@ namespace SendWebUsername
                 + "<p>Feel free to contact me should you have any questions.</p>"
                 + "<p>Thank you," + signature + "</p></body></html>";
 
+            /*
+            
+            ---- Filter not functioning as desired - does not find duplicate entries ----
+
             oItem = oItem.Find(filter);
 
             if(oItem != null)
@@ -63,7 +60,7 @@ namespace SendWebUsername
                     System.Windows.Forms.MessageBox.Show("Contact already exists. Would you like to overwrite?", "Contact Exists", MessageBoxButtons.YesNo);
                 if(contactResult == DialogResult.Yes) oContact = oItem as Outlook.ContactItem;
 
-            }
+            }*/
 
             try
             {
