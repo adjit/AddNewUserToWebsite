@@ -58,7 +58,8 @@
             // 
             this.addUserButton.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
             this.addUserButton.Image = global::SendWebUsername.Properties.Resources.add_user;
-            this.addUserButton.Label = "Add User";
+            this.addUserButton.ImageName = "Add User";
+            this.addUserButton.Label = "Add-User";
             this.addUserButton.Name = "addUserButton";
             this.addUserButton.ScreenTip = "Add New Website User";
             this.addUserButton.ShowImage = true;
