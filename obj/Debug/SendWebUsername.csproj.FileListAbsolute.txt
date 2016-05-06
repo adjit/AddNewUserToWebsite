@@ -21,3 +21,4 @@ D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUse
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\bin\Debug\Send Web Username.vsto
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\Send Web Username.dll
 D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\Send Web Username.pdb
+D:\Users\atawil\Documents\Visual Studio 2015\Projects\SendWebUsername\SendWebUsername\obj\Debug\SendWebUsername.csprojResolveAssemblyReference.cache

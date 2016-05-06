@@ -26,7 +26,7 @@ namespace SendWebUsername
             String companyName = company.Text;
             String sUsername = username.Text;
             String sPassword = password.Text;
-            String rep = repEmail.Text;
+            String rep = repEmail.Text + "@metsales.com";
 
             String filter = "[FirstName] = '" + firstName.Text + "' And [LastName] = '" + lastName.Text + "'";
 
